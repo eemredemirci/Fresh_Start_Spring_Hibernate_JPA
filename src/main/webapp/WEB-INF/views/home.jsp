@@ -13,7 +13,9 @@
 <br>
 <br>
 	<form action="allUsers" method="post">
+
 		<input type="submit" value="List All Users" />
+
 	</form>
 </body>
 </html>

@@ -23,7 +23,6 @@
 				<th>First Name</th>
 				<th>Last Name</th>
 				<th>UserName</th>
-				<th>Password</th>
 				<th>Edit</th>
 				<th>Delete</th>
 			</tr>
@@ -35,7 +34,6 @@
 					<td>${user.firstName}</td>
 					<td>${user.lastName}</td>
 					<td>${user.userName}</td>
-					<td>${user.password}</td>
 					<td><a
 						href="${pageContext.request.contextPath}/editUser/${user.id}">Edit</a></td>
 					<td><a
