@@ -53,7 +53,7 @@ public class UserController {
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public ModelAndView displayNewUserForm() {
 		ModelAndView mv = new ModelAndView("addUser");
-		mv.addObject("headerMessage", "Add User Details");
+		mv.addObject("headerMessage", "New User Account");
 		mv.addObject("user", new User());
 		return mv;
 	}
