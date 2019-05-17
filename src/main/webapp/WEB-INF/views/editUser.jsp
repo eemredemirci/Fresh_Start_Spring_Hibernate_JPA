@@ -26,10 +26,6 @@
                     <td><form:label path="userName">UserName</form:label></td>
                     <td><form:input path="userName"/></td>
                 </tr>
-                 <tr>
-                    <td><form:label path="password">Password</form:label></td>
-                    <td><form:input path="password"/></td>
-                </tr>
                 <tr>
                     <td><input type="submit" value="Submit"/></td>
                 </tr>
