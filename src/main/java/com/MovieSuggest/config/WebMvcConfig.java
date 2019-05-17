@@ -29,7 +29,21 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+		registry.addResourceHandler(
+				"/resources/**",
+				"/sass/**",
+				"/fonts/**",
+                "/images/**",
+                "/css/**",
+                "/js/**"
+				+ "")
+		.addResourceLocations("/resources/",
+                "classpath:/static/images/",
+                "classpath:/static/css/",
+                "classpath:/static/fonts/",
+                "classpath:/static/sass/",
+				"classpath:/static/js/");
+
 	}
 
 	@Override
@@ -44,7 +58,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	// return messageSource;
 	// }
 
-	
 
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
