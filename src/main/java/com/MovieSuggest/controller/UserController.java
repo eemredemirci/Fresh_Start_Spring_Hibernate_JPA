@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.MovieSuggest.entity.User;
 import com.MovieSuggest.service.UserService;
 
+
 @Controller
 public class UserController {
 	// Constructor based Dependency Injection
@@ -38,6 +39,45 @@ public class UserController {
 		mv.setViewName("home");
 		return mv;
 	}
+	
+	//--------------- Login---- Registration---------
+	
+	@RequestMapping(value = "register", method = RequestMethod.GET)
+	public ModelAndView viewRegister(@ModelAttribute User user) {
+		return new ModelAndView("register");
+	}
+
+	@RequestMapping(value = "register", method = RequestMethod.POST)
+	public ModelAndView createUser(@ModelAttribute User user) {
+		userService.createUser(user);
+		return new ModelAndView("login");
+	}
+
+	@RequestMapping(value = "login", method = RequestMethod.GET)
+	public ModelAndView viewLogin(@ModelAttribute User user) {
+		return new ModelAndView("login");
+	}
+
+	@RequestMapping(value = "login", method = RequestMethod.POST)
+	public ModelAndView processLogin(@ModelAttribute User user) {
+		User usr = userService.getUser(user);
+		ModelAndView model = null;
+		if (usr == null) {
+			model = new ModelAndView("login");
+			model.addObject("result", "Invalid Username or Password");
+		} else {
+			model = new ModelAndView("home");
+			model.addObject("usr", usr.getFirstName());
+		}
+		return model;
+	}
+
+	
+	
+	
+	
+	
+	
 
 	// Get All Users
 	@RequestMapping(value = "/allUsers", method = RequestMethod.POST)
