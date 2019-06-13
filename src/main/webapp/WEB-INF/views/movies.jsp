@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -55,16 +55,16 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"> M & MOVIES </a></div>
+						<div id="fh5co-logo"><a href="index"> M & MOVIES </a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li class="active"><a href="movies.html">Movies</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-<li><a href="signin.html">Sign in</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li><a href="index">Home</a></li>
+							<li class="active"><a href="movies">Movies</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="contact">Contact</a></li>
+<li><a href="signin">Sign in</a></li>
+							<li><a href="login">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -96,90 +96,90 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail.html" class="blog-bg" style="background-image: url(images/shawshank.PNG);"></a>
+						<a href="movies-detail" class="blog-bg" style="background-image: url(images/shawshank.PNG);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 15th 2019</span>
-							<h3><a href="movies-detail.html">Shawshank Redemption</a></h3>
+							<h3><a href="movies-detail">Shawshank Redemption</a></h3>
 							<p>Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found...</p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>249</li>
 								<li><i class="icon-eye2"></i>1,308</li>
-								<li><a href="movies-detail.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail1.html" class="blog-bg" style="background-image: url(images/tgf11.jpg);"></a>
+						<a href="movies-detail1" class="blog-bg" style="background-image: url(images/tgf11.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 13th 2019</span>
-							<h3><a href="movies-detail1.html">The Godfather</a></h3>
+							<h3><a href="movies-detail1">The Godfather</a></h3>
 							<p>The Godfather "Don" Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. </p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>200</li>
 								<li><i class="icon-eye2"></i>1,608</li>
-								<li><a href="movies-detail1.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail1">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail2.html" class="blog-bg" style="background-image: url(images/tgf12.jpg);"></a>
+						<a href="movies-detail2" class="blog-bg" style="background-image: url(images/tgf12.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 12th 2019</span>
-							<h3><a href="movies-detail2.html">The Godfather: Part II</a></h3>
+							<h3><a href="movies-detail2">The Godfather: Part II</a></h3>
 							<p>The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York...</p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>449</li>
 								<li><i class="icon-eye2"></i>1,108</li>
-								<li><a href="movies-detail2.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail2">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail3.html" class="blog-bg" style="background-image: url(images/tdn.jpg);"></a>
+						<a href="movies-detail3" class="blog-bg" style="background-image: url(images/tdn.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 11th 2019</span>
-							<h3><a href="movies-detail3.html">The Dark Knight</a></h3>
+							<h3><a href="movies-detail3">The Dark Knight</a></h3>
 							<p>Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District... </p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>849</li>
 								<li><i class="icon-eye2"></i>2,608</li>
-								<li><a href="movies-detail3.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail3">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail4.html" class="blog-bg" style="background-image: url(images/ma1.jpg);"></a>
+						<a href="movies-detail4" class="blog-bg" style="background-image: url(images/ma1.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 10th 2019</span>
-							<h3><a href="movies-detail4.html">12 Angry Men</a></h3>
+							<h3><a href="movies-detail4">12 Angry Men</a></h3>
 							<p>The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or...</p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>649</li>
 								<li><i class="icon-eye2"></i>3,308</li>
-								<li><a href="movies-detail4.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail4">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="movies-detail5.html" class="blog-bg" style="background-image: url(images/sl.jpg);"></a>
+						<a href="movies-detail5" class="blog-bg" style="background-image: url(images/sl.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 5th 2019</span>
-							<h3><a href="movies-detail5.html">Schindler's List</a></h3>
+							<h3><a href="movies-detail5">Schindler's List</a></h3>
 							<p>Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German...</p>
 							<ul class="stuff">
 								<li><i class="icon-heart3"></i>249</li>
 								<li><i class="icon-eye2"></i>1,308</li>
-								<li><a href="movies-detail5.html">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="movies-detail5">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -202,7 +202,7 @@
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="index.html"><i class="icon-dribbble"></i></a></li>
+							<li><a href="index"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>
