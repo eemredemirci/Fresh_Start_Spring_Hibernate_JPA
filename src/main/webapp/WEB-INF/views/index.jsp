@@ -46,16 +46,16 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"> M & MOVIES </a></div>
+						<div id="fh5co-logo"><a href="index"> M & MOVIES </a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="movies.html">Movies</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-<li><a href="signin.html">Sign in</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li class="active"><a href="index">Home</a></li>
+							<li><a href="movies">Movies</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="contact">Contact</a></li>
+<li><a href="signin">Sign in</a></li>
+							<li><a href="login">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 				   				<div class="slider-text-inner">
 				   					<h1>Shawshank Redemption</h1>
 										<h2>Frank Darabont</h2>
-										<p><a class="btn btn-primary btn-demo" href="movies-detail.html"></i>See Details</a></p>
+										<p><a class="btn btn-primary btn-demo" href="movies-detail"></i>See Details</a></p>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -89,7 +89,7 @@
 				   				<div class="slider-text-inner">
 				   					<h1>The Godfather</h1>
 										<h2>Francis Ford Coppola</h2>
-										<p><a class="btn btn-primary btn-demo" href="movies-detail1.html"></i>See Details</a></p>
+										<p><a class="btn btn-primary btn-demo" href="movies-detail1"></i>See Details</a></p>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -103,7 +103,7 @@
 				   				<div class="slider-text-inner text-center">
 				   					<h1>The Godfather: Part II</h1>
 										<h2>Francis Ford Coppola</h2>
-										<p><a class="btn btn-primary btn-demo" href="movies-detail2.html"></i>See Details</a></p>
+										<p><a class="btn btn-primary btn-demo" href="movies-detail2"></i>See Details</a></p>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -117,7 +117,7 @@
 				   				<div class="slider-text-inner">
 				   					<h1>The Dark Knight</h1>
 										<h2>Christopher Nolan</h2>
-										<p><a class="btn btn-primary btn-demo" href="movies-detail3.html"></i>See Details</a></p>
+										<p><a class="btn btn-primary btn-demo" href="movies-detail3"></i>See Details</a></p>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -173,7 +173,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
-					<a href="movies-detail.html" class="work"  style="background-image: url(images/tsr.jpg);">
+					<a href="movies-detail" class="work"  style="background-image: url(images/tsr.jpg);">
 						<div class="desc">
 							<h3>Shawshank Redemption</h3>
 							<span>Frank Darabont</span>
@@ -181,7 +181,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
-					<a href="movies-detail1.html" class="work" style="background-image: url(images/tgf1.jpg);">
+					<a href="movies-detail1" class="work" style="background-image: url(images/tgf1.jpg);">
 						<div class="desc">
 							<h3>The Godfather</h3>
 							<span>Francis Ford Coppola</span>
@@ -189,7 +189,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
-					<a href="movies-detail2.html" class="work" style="background-image: url(images/tgf2.jpg);">
+					<a href="movies-detail2" class="work" style="background-image: url(images/tgf2.jpg);">
 						<div class="desc">
 							<h3>The Godfather: Part II </h3>
 							<span>Francis Ford Coppola</span>
@@ -234,8 +234,8 @@
 				<div class="desc-t">
 					<div class="desc-tc">
 						<span class="featured-head">Featured Topic</span>
-						<h3><a href="about.html">One click is enough for more information about us.</a></h3>
-						<span><a href="about.html" class="read-button">About Us</a></span>
+						<h3><a href="about">One click is enough for more information about us.</a></h3>
+						<span><a href="about" class="read-button">About Us</a></span>
 					</div>
 				</div>
 			</div>
@@ -247,7 +247,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 animate-box">
-						<a href="about.html" class="blog-post">
+						<a href="about" class="blog-post">
 							<span class="img" style="background-image: url(images/prl1.jpg);"></span>
 							<div class="desc">
 								<h3> Emre DEMİRCİ</h3>
@@ -256,7 +256,7 @@
 						</a>
 					</div>
 					<div class="col-md-12 animate-box">
-						<a href="about.html" class="blog-post">
+						<a href="about" class="blog-post">
 							<span class="img" style="background-image: url(images/prl2.jpg);"></span>
 							<div class="desc">
 								<h3>Mehmet Emre GÜVERCİN</h3>
@@ -265,7 +265,7 @@
 						</a>
 					</div>
 					<div class="col-md-12 animate-box">
-						<a href="about.html" class="blog-post">
+						<a href="about" class="blog-post">
 							<span class="img" style="background-image: url(images/prl3.jpg);"></span>
 							<div class="desc">
 								<h3> Cem ÖZEL</h3>
@@ -274,7 +274,7 @@
 						</a>
 					</div>
 					<div class="col-md-12 animate-box">
-						<a href="about.html" class="blog-post">
+						<a href="about" class="blog-post">
 							<span class="img" style="background-image: url(images/prl3.jpg);"></span>
 							<div class="desc">
 								<h3> Fatih ÇITRIKI</h3>
@@ -302,7 +302,7 @@
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="index.html"><i class="icon-dribbble"></i></a></li>
+							<li><a href="index"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>

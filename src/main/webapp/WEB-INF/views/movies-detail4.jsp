@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -55,16 +55,16 @@
 				<div class="top-menu">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="fh5co-logo"><a href="index.html"> M & MOVIES </a></div>
+							<div id="fh5co-logo"><a href="index"> M & MOVIES </a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="movies.html">Movies</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
-<li><a href="signin.html">Sign in</a></li>
-							<li><a href="login.html">Login</a></li>
+								<li><a href="index">Home</a></li>
+								<li><a href="movies">Movies</a></li>
+								<li><a href="about">About</a></li>
+								<li><a href="contact">Contact</a></li>
+<li><a href="signin">Sign in</a></li>
+							<li><a href="login">Login</a></li>
 							</ul>
 						</div>
 					</div>
@@ -76,13 +76,13 @@
 		<aside id="fh5co-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/tdn.jpg);">
+			   	<li style="background-image: url(images/ma3.jpg);">
 			   		<div class="overlay-gradient"></div>
 		   			<div class="row">
 			   			<div class="col-md-6 col-md-offset-3 slider-text slider-text-bg">
 			   				<div class="slider-text-inner text-center">
-			   					<h1>The Dark Knight</h1>
-									<h2>Christopher Nolan</h2>
+			   					<h1>12 Angry Men</h1>
+									<h2>Sidney Lumet</h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -93,30 +93,30 @@
 		<div id="fh5co-work">
 			<div class="row">
 				<div class="col-md-8">
-					<a href="images/tdn1.jpg" class="image-popup img-portfolio-detail">
-						<img src="images/tdn1.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
+					<a href="images/ma3.jpg" class="image-popup img-portfolio-detail">
+						<img src="images/ma3.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
 					</a>
 					<h1>Watch the Trailer</h1>
-					<iframe width="640" height="515" src="https://www.youtube.com/embed/EXeTwQWrcwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<a href="images/tdn2.jpg" class="image-popup img-portfolio-detail">
-						<img src="images/tdn2.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
+					<iframe width="640" height="515" src="https://www.youtube.com/embed/_13J_9B5jEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="images/ma2.jpg" class="image-popup img-portfolio-detail">
+						<img src="images/ma2.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
 					</a>
-					<a href="images/tdn.jpg" class="image-popup img-portfolio-detail">
-						<img src="images/tdn.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
+					<a href="images/ma4.jpg" class="image-popup img-portfolio-detail">
+						<img src="images/ma4.jpg" alt="Free HTML5 Template by FreeHTML5.co" class="img-responsive">
 					</a>
 				</div>
 				<div class="col-md-4 fh5co-project-detail">
-					<h2 class="fh5co-project-title">The Dark Knight</h2>
-					<span class="fh5co-project-sub">2008</span>
-					<p>Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as "The Joker" appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to "confront everything he believes" and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes.</p>
+					<h2 class="fh5co-project-title">12 Angry Men</h2>
+					<span class="fh5co-project-sub">1957</span>
+					<p>The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.</p>
 
 					<div class="fh5co-project-service">
 						<h3>Cast</h3>
 						<ul>
-							<li>Christian Bale</li>
-							<li>Heath Ledger</li>
-							<li>Aaron Eckhart</li>
-							<li>Michael Caine</li>
+							<li>Martin Balsam</li>
+							<li>John Fiedler</li>
+							<li>Lee J. Cobb</li>
+							<li>E.G. Marshall</li>
 						</ul>
 					</div>
 				</div>
@@ -133,12 +133,12 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2019 SOFTWARE DESIGND APPLICATION </small>
+						<small class="block">&&copy; 2019 SOFTWARE DESIGND APPLICATION </small>
 
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="index.html"><i class="icon-dribbble"></i></a></li>
+							<li><a href="index"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>

@@ -5,6 +5,11 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +32,44 @@ public class UserServiceImpl implements UserService {
 			super();
 			this.repository = repository;
 		}
+	
 		
+		
+		@Autowired
+		SessionFactory sessionFactory;
+		
+		@Override
+		public void createUser(User user) {
+			Session session = sessionFactory.openSession();
+			//	Transaction tx = session.beginTransaction();
+				session.save(user);
+			//	tx.commit();
+				session.close();
+			
+		}
+
+		@Override
+		public User getUser(User user) {
+			Session session = sessionFactory.openSession();
+			Criteria criteria = null;
+			User emp = null;
+			try {
+				criteria = session.createCriteria(User.class);
+				Criterion criterion = Restrictions.eq("username",
+						user.getUserName());
+				criteria.add(criterion);
+
+				criteria.setMaxResults(1);
+				emp = (User) criteria.uniqueResult();
+			} catch (Exception e) {
+				e.printStackTrace();
+			} finally {
+				if (session != null) {
+					session.close();
+				}
+			}
+			return emp;
+		}
 	@Override
 	public List<User> getAllUsers() {
 		List<User> list = new ArrayList<User>();
