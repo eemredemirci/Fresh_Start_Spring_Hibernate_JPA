@@ -54,17 +54,17 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"> M & MOVIES </a></div>
+						<div id="fh5co-logo"><a href="index"> M & MOVIES </a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="movies.html">Movies</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="signin.html">Sign in</a></li>
-							<li class="active"><a href="add-movie.html">Add Movie</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li><a href="index">Home</a></li>
+							<li><a href="movies">Movies</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="contact">Contact</a></li>
+							<li><a href="signin">Sign in</a></li>
+							<li class="active"><a href="add-movie">Add Movie</a></li>
+							<li><a href="login">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 	</nav>
 	<div class="container-wrap">
 
-		<form>
+		<form:form method="POST" action="addMovie" modelAttribute="movie">
 	  <div class="form-group">
 	    <label for="exampleInputEmail1">Movie Name</label>
 	    <input type="movie-name" class="form-control" id="movie" aria-describedby="movie" placeholder="Enter Movie Name">
@@ -120,8 +120,10 @@
 	  <span>Select Movie Picture</span>
 		<input type="file" name="fileToUpload" id="fileToUpload"></div>
 		
-	  <button type="submit" class="btn btn-primary">Add Movie</button>
-	</form>
+	 <form action="allUsers" method="post">
+						<input type="submit" value="Add Movie" />
+					</form>
+	 </form:form>
 
 	</div>
 

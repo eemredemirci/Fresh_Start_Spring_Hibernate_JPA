@@ -13,6 +13,7 @@
 	<br>
 	<a href="${pageContext.request.contextPath}/addUser">Add User</a>
 	<br>
+	<h1>Admin Panel</h1>
 	<h3>List of all users</h3>
 	${message}
 	<br>
@@ -44,5 +45,8 @@
 
 
 	</table>
+
+	<a href="Add-Movie">Add New Movie</a>
+	<a href="home">Go back to Home</a>
 </body>
 </html>

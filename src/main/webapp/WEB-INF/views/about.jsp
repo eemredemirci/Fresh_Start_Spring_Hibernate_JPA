@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -55,16 +55,16 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"> M & MOVIES </a></div>
+						<div id="fh5co-logo"><a href="index"> M & MOVIES </a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="movies.html">Movies</a></li>
-							<li class="active"><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="signin.html">Sign in</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li><a href="index">Home</a></li>
+							<li><a href="movies">Movies</a></li>
+							<li class="active"><a href="about">About</a></li>
+							<li><a href="contact">Contact</a></li>
+							<li><a href="signin">Sign in</a></li>
+							<li><a href="login">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -128,7 +128,7 @@
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="index.html"><i class="icon-dribbble"></i></a></li>
+							<li><a href="index"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>
